@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.tab {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #7b8794;
+  font-weight: 500;
+  font-family: 'Roboto';
+  padding: 10px;
+}
+.tab-list {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+.active-btn {
+  color: #2563eb;
+  border-bottom: 2px solid #2563eb;
+}
